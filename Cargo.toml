@@ -1,0 +1,22 @@
+[package]
+name = "axum-respack"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.4"
+dotenv = "0.15.0"
+mime_guess = "2.0.5"
+rspack = { version = "0.5.7", features = ["loader_swc"] }
+rspack_core = "0.5.7"
+rspack_error = "0.5.7"
+rspack_fs = "0.5.7"
+rspack_paths = "0.5.7"
+rspack_plugin_html = "0.5.7"
+rspack_regex = "0.5.7"
+rspack_util = "0.5.7"
+serde_json = "1.0.145"
+thiserror = "2.0.16"
+tokio = { version = "1.47.1", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = { version = "0.3.20", features = ["env-filter"] }

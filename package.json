@@ -1,0 +1,9 @@
+{
+  "name": "axum-rspack",
+  "module": "index.ts",
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "type": "module"
+}
